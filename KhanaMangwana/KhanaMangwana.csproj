@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{697D55F6-D8AB-4368-9F74-D5843DD517E2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KhanaMangwana</RootNamespace>
+    <AssemblyName>KhanaMangwana</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin-AddMenuItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin-AddMenuItem.Designer.cs">
+      <DependentUpon>Admin-AddMenuItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu Details.Designer.cs">
+      <DependentUpon>Menu Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Order Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order Details.Designer.cs">
+      <DependentUpon>Order Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderHistory.Designer.cs">
+      <DependentUpon>OrderHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderStatus.Designer.cs">
+      <DependentUpon>OrderStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin-Orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin-Orders.Designer.cs">
+      <DependentUpon>Admin-Orders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReviewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReviewForm.Designer.cs">
+      <DependentUpon>ReviewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReviewHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReviewHistory.Designer.cs">
+      <DependentUpon>ReviewHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User-Cart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User-Cart.Designer.cs">
+      <DependentUpon>User-Cart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User-Default.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User-Default.Designer.cs">
+      <DependentUpon>User-Default.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User-Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User-Menu.Designer.cs">
+      <DependentUpon>User-Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User-NewOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User-NewOrders.Designer.cs">
+      <DependentUpon>User-NewOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User-OrderDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User-OrderDetails.Designer.cs">
+      <DependentUpon>User-OrderDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User-Orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User-Orders.Designer.cs">
+      <DependentUpon>User-Orders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User - Balance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User - Balance.Designer.cs">
+      <DependentUpon>User - Balance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User-Reviews.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User-Reviews.Designer.cs">
+      <DependentUpon>User-Reviews.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin-AddMenuItem.resx">
+      <DependentUpon>Admin-AddMenuItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu Details.resx">
+      <DependentUpon>Menu Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order Details.resx">
+      <DependentUpon>Order Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderHistory.resx">
+      <DependentUpon>OrderHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderStatus.resx">
+      <DependentUpon>OrderStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin-Orders.resx">
+      <DependentUpon>Admin-Orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReviewForm.resx">
+      <DependentUpon>ReviewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReviewHistory.resx">
+      <DependentUpon>ReviewHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User-Cart.resx">
+      <DependentUpon>User-Cart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User-Default.resx">
+      <DependentUpon>User-Default.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User-Menu.resx">
+      <DependentUpon>User-Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User-NewOrders.resx">
+      <DependentUpon>User-NewOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User-OrderDetails.resx">
+      <DependentUpon>User-OrderDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User-Orders.resx">
+      <DependentUpon>User-Orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User - Balance.resx">
+      <DependentUpon>User - Balance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="User-Reviews.resx">
+      <DependentUpon>User-Reviews.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
