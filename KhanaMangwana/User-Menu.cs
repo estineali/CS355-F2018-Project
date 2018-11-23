@@ -85,5 +85,7 @@ namespace KhanaMangwana
             Admin_AddMenuItem add = new Admin_AddMenuItem();
             add.Show();
         }
+
+        
     }
 }

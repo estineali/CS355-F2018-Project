@@ -40,7 +40,7 @@
             // 
             // Order_details
             // 
-            this.Order_details.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Order_details.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Order_details.Location = new System.Drawing.Point(207, 266);
             this.Order_details.Name = "Order_details";
             this.Order_details.Size = new System.Drawing.Size(88, 33);
@@ -51,7 +51,7 @@
             // 
             // Cancel
             // 
-            this.Cancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cancel.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cancel.Location = new System.Drawing.Point(301, 267);
             this.Cancel.Name = "Cancel";
             this.Cancel.Size = new System.Drawing.Size(70, 33);
@@ -62,12 +62,14 @@
             // 
             // listBox1
             // 
+            this.listBox1.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 15;
             this.listBox1.Items.AddRange(new object[] {
             "06983\tSaleha Raza "});
             this.listBox1.Location = new System.Drawing.Point(16, 25);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(355, 225);
+            this.listBox1.Size = new System.Drawing.Size(355, 214);
             this.listBox1.TabIndex = 3;
             // 
             // AcceptButton1

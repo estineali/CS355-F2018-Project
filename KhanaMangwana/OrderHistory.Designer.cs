@@ -37,15 +37,16 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Constantia", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Roboto Light", 15.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(179, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(150, 26);
+            this.label1.Size = new System.Drawing.Size(135, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Order History";
             // 
             // historylb
             // 
+            this.historylb.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.historylb.FormattingEnabled = true;
             this.historylb.Location = new System.Drawing.Point(41, 84);
             this.historylb.Name = "historylb";
@@ -54,6 +55,7 @@
             // 
             // detailbutton
             // 
+            this.detailbutton.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.detailbutton.Location = new System.Drawing.Point(407, 405);
             this.detailbutton.Name = "detailbutton";
             this.detailbutton.Size = new System.Drawing.Size(75, 24);
@@ -64,6 +66,7 @@
             // 
             // cancelbutton
             // 
+            this.cancelbutton.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cancelbutton.Location = new System.Drawing.Point(313, 405);
             this.cancelbutton.Name = "cancelbutton";
             this.cancelbutton.Size = new System.Drawing.Size(75, 24);
@@ -82,7 +85,7 @@
             this.Controls.Add(this.historylb);
             this.Controls.Add(this.label1);
             this.Name = "OrderHistory";
-            this.Text = "OrderHistory";
+            this.Text = "Order History";
             this.ResumeLayout(false);
             this.PerformLayout();
 

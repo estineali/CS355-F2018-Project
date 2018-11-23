@@ -54,7 +54,5 @@ namespace KhanaMangwana
         {
             this.Close();
         }
-
-       
     }
 }

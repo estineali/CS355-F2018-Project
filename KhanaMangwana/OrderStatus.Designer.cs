@@ -39,17 +39,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Roboto", 20.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(166, 38);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(166, 23);
+            this.label1.Size = new System.Drawing.Size(166, 33);
             this.label1.TabIndex = 0;
             this.label1.Text = "Order Status";
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.currentorders);
-            this.groupBox1.Font = new System.Drawing.Font("Courier New", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Roboto Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(33, 100);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(435, 265);
@@ -60,14 +60,15 @@
             // currentorders
             // 
             this.currentorders.FormattingEnabled = true;
-            this.currentorders.ItemHeight = 17;
+            this.currentorders.ItemHeight = 18;
             this.currentorders.Location = new System.Drawing.Point(0, 36);
             this.currentorders.Name = "currentorders";
-            this.currentorders.Size = new System.Drawing.Size(435, 225);
+            this.currentorders.Size = new System.Drawing.Size(435, 220);
             this.currentorders.TabIndex = 0;
             // 
             // detailsbutton
             // 
+            this.detailsbutton.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.detailsbutton.Location = new System.Drawing.Point(393, 395);
             this.detailsbutton.Name = "detailsbutton";
             this.detailsbutton.Size = new System.Drawing.Size(75, 23);
@@ -78,6 +79,7 @@
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(295, 395);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
@@ -96,7 +98,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Name = "OrderStatus";
-            this.Text = "OrderStatus";
+            this.Text = "Order Status";
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

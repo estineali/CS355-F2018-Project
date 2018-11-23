@@ -42,17 +42,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Bookman Old Style", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(167, 36);
+            this.label1.Font = new System.Drawing.Font("Roboto", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(176, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 24);
+            this.label1.Size = new System.Drawing.Size(87, 35);
             this.label1.TabIndex = 0;
             this.label1.Text = "CART";
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.itemslb);
-            this.groupBox1.Font = new System.Drawing.Font("Georgia", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Roboto Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(42, 89);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(346, 200);
@@ -62,6 +62,7 @@
             // 
             // itemslb
             // 
+            this.itemslb.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.itemslb.FormattingEnabled = true;
             this.itemslb.ItemHeight = 18;
             this.itemslb.Location = new System.Drawing.Point(22, 24);
@@ -71,9 +72,10 @@
             // 
             // RemoveButton
             // 
-            this.RemoveButton.Location = new System.Drawing.Point(42, 308);
+            this.RemoveButton.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RemoveButton.Location = new System.Drawing.Point(32, 308);
             this.RemoveButton.Name = "RemoveButton";
-            this.RemoveButton.Size = new System.Drawing.Size(78, 23);
+            this.RemoveButton.Size = new System.Drawing.Size(88, 23);
             this.RemoveButton.TabIndex = 5;
             this.RemoveButton.Text = "Remove Item";
             this.RemoveButton.UseVisualStyleBackColor = true;
@@ -82,16 +84,16 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(289, 308);
+            this.label2.Font = new System.Drawing.Font("Roboto Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(276, 308);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 20);
+            this.label2.Size = new System.Drawing.Size(64, 19);
             this.label2.TabIndex = 6;
             this.label2.Text = "TOTAL: ";
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(135, 309);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(20, 20);
@@ -104,16 +106,16 @@
             // quantitychange
             // 
             this.quantitychange.AutoSize = true;
-            this.quantitychange.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.quantitychange.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.quantitychange.Location = new System.Drawing.Point(161, 311);
             this.quantitychange.Name = "quantitychange";
-            this.quantitychange.Size = new System.Drawing.Size(15, 16);
+            this.quantitychange.Size = new System.Drawing.Size(14, 15);
             this.quantitychange.TabIndex = 8;
             this.quantitychange.Text = "0";
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(182, 309);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(20, 20);
@@ -136,7 +138,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Name = "User_Cart";
-            this.Text = "User_Cart";
+            this.Text = "Cart";
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

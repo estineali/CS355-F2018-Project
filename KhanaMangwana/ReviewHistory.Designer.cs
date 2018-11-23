@@ -39,6 +39,7 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.historylistbox);
+            this.groupBox1.Font = new System.Drawing.Font("Roboto Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(37, 78);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(401, 301);
@@ -48,28 +49,31 @@
             // 
             // historylistbox
             // 
+            this.historylistbox.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.historylistbox.FormattingEnabled = true;
+            this.historylistbox.ItemHeight = 14;
             this.historylistbox.Location = new System.Drawing.Point(0, 24);
             this.historylistbox.Name = "historylistbox";
-            this.historylistbox.Size = new System.Drawing.Size(401, 277);
+            this.historylistbox.Size = new System.Drawing.Size(401, 270);
             this.historylistbox.TabIndex = 0;
             this.historylistbox.SelectedIndexChanged += new System.EventHandler(this.historylistbox_SelectedIndexChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(167, 22);
+            this.label1.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(158, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(135, 19);
+            this.label1.Size = new System.Drawing.Size(172, 29);
             this.label1.TabIndex = 1;
             this.label1.Text = "Review History";
             // 
             // detailsbutton
             // 
-            this.detailsbutton.Location = new System.Drawing.Point(363, 411);
+            this.detailsbutton.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.detailsbutton.Location = new System.Drawing.Point(255, 411);
             this.detailsbutton.Name = "detailsbutton";
-            this.detailsbutton.Size = new System.Drawing.Size(75, 23);
+            this.detailsbutton.Size = new System.Drawing.Size(85, 23);
             this.detailsbutton.TabIndex = 2;
             this.detailsbutton.Text = "View Details";
             this.detailsbutton.UseVisualStyleBackColor = true;
@@ -77,9 +81,10 @@
             // 
             // closebutton
             // 
-            this.closebutton.Location = new System.Drawing.Point(265, 411);
+            this.closebutton.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.closebutton.Location = new System.Drawing.Point(353, 411);
             this.closebutton.Name = "closebutton";
-            this.closebutton.Size = new System.Drawing.Size(75, 23);
+            this.closebutton.Size = new System.Drawing.Size(85, 23);
             this.closebutton.TabIndex = 3;
             this.closebutton.Text = "Close";
             this.closebutton.UseVisualStyleBackColor = true;
@@ -95,7 +100,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.Name = "ReviewHistory";
-            this.Text = "ReviewHistory";
+            this.Text = "Reviews";
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

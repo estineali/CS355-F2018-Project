@@ -75,16 +75,25 @@ namespace KhanaMangwana
 
             }
 
+            else if (usernametb.Text == "sysadmin" && pass == "administer")
+            { 
+                SystemAdmin sysAd = new SystemAdmin();
+                sysAd.Show();
+                MessageBox.Show("THE RED ROASTED PARAKEETS", "Buongiorno", MessageBoxButtons.OK);
+                this.Hide();
+
+            }
+
             else
-           {
+            {
                MessageBox.Show("Login failed! Try Again", "Login Failed", MessageBoxButtons.OK ,MessageBoxIcon.Error);
-           }
+            }
 
         }
 
         private void Signuplink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Form2 frm2 = new Form2();
+            RegistrationForm frm2 = new RegistrationForm();
             frm2.Show();
             this.Hide();
         }

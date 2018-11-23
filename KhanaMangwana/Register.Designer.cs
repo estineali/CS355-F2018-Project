@@ -1,6 +1,6 @@
 ﻿namespace KhanaMangwana
 {
-    partial class Form2
+    partial class RegistrationForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,128 +28,135 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.fnametb = new System.Windows.Forms.TextBox();
-            this.lnametb = new System.Windows.Forms.TextBox();
-            this.emailtb = new System.Windows.Forms.TextBox();
-            this.passwordtb = new System.Windows.Forms.TextBox();
-            this.password2tb = new System.Windows.Forms.TextBox();
-            this.cancelbutton = new System.Windows.Forms.Button();
+            this.RegFormLabel = new System.Windows.Forms.Label();
+            this.FirstNameLabel = new System.Windows.Forms.Label();
+            this.LastNameLabel = new System.Windows.Forms.Label();
+            this.EmailLabel = new System.Windows.Forms.Label();
+            this.PasswordLabel = new System.Windows.Forms.Label();
+            this.ConfPasswordLabel = new System.Windows.Forms.Label();
+            this.FirstNameTextBox = new System.Windows.Forms.TextBox();
+            this.LastNameTextBox = new System.Windows.Forms.TextBox();
+            this.EmailTextBox = new System.Windows.Forms.TextBox();
+            this.PasswordTextBox = new System.Windows.Forms.TextBox();
+            this.ConfPasswordTextBox = new System.Windows.Forms.TextBox();
+            this.CancelButton = new System.Windows.Forms.Button();
             this.RegisterButton = new System.Windows.Forms.Button();
-            this.loginlink = new System.Windows.Forms.LinkLabel();
-            this.passwordcheck = new System.Windows.Forms.CheckBox();
+            this.LoginLink = new System.Windows.Forms.LinkLabel();
+            this.PasswordCheck = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
-            // label1
+            // RegFormLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(122, 54);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(263, 31);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Registeration Form";
+            this.RegFormLabel.AutoSize = true;
+            this.RegFormLabel.Font = new System.Drawing.Font("Roboto", 20.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RegFormLabel.Location = new System.Drawing.Point(122, 54);
+            this.RegFormLabel.Name = "RegFormLabel";
+            this.RegFormLabel.Size = new System.Drawing.Size(244, 33);
+            this.RegFormLabel.TabIndex = 0;
+            this.RegFormLabel.Text = "Registeration Form";
             // 
-            // label2
+            // FirstNameLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(39, 139);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "First Name : ";
+            this.FirstNameLabel.AutoSize = true;
+            this.FirstNameLabel.Font = new System.Drawing.Font("Roboto Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FirstNameLabel.Location = new System.Drawing.Point(55, 144);
+            this.FirstNameLabel.Name = "FirstNameLabel";
+            this.FirstNameLabel.Size = new System.Drawing.Size(72, 14);
+            this.FirstNameLabel.TabIndex = 1;
+            this.FirstNameLabel.Text = "First Name: ";
             // 
-            // label3
+            // LastNameLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(38, 190);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Last Name : ";
+            this.LastNameLabel.AutoSize = true;
+            this.LastNameLabel.Font = new System.Drawing.Font("Roboto Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LastNameLabel.Location = new System.Drawing.Point(57, 192);
+            this.LastNameLabel.Name = "LastNameLabel";
+            this.LastNameLabel.Size = new System.Drawing.Size(67, 14);
+            this.LastNameLabel.TabIndex = 2;
+            this.LastNameLabel.Text = "Last Name:";
             // 
-            // label4
+            // EmailLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(58, 249);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Email :";
+            this.EmailLabel.AutoSize = true;
+            this.EmailLabel.Font = new System.Drawing.Font("Roboto Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmailLabel.Location = new System.Drawing.Point(84, 239);
+            this.EmailLabel.Name = "EmailLabel";
+            this.EmailLabel.Size = new System.Drawing.Size(40, 14);
+            this.EmailLabel.TabIndex = 3;
+            this.EmailLabel.Text = "Email:";
             // 
-            // label5
+            // PasswordLabel
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(37, 300);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(59, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Password :";
+            this.PasswordLabel.AutoSize = true;
+            this.PasswordLabel.Font = new System.Drawing.Font("Roboto Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PasswordLabel.Location = new System.Drawing.Point(63, 284);
+            this.PasswordLabel.Name = "PasswordLabel";
+            this.PasswordLabel.Size = new System.Drawing.Size(62, 14);
+            this.PasswordLabel.TabIndex = 4;
+            this.PasswordLabel.Text = "Password:";
             // 
-            // label6
+            // ConfPasswordLabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 353);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(97, 13);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Confirm Password :";
+            this.ConfPasswordLabel.AutoSize = true;
+            this.ConfPasswordLabel.Font = new System.Drawing.Font("Roboto Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ConfPasswordLabel.Location = new System.Drawing.Point(18, 330);
+            this.ConfPasswordLabel.Name = "ConfPasswordLabel";
+            this.ConfPasswordLabel.Size = new System.Drawing.Size(108, 14);
+            this.ConfPasswordLabel.TabIndex = 5;
+            this.ConfPasswordLabel.Text = "Confirm Password:";
             // 
-            // fnametb
+            // FirstNameTextBox
             // 
-            this.fnametb.Location = new System.Drawing.Point(128, 136);
-            this.fnametb.Name = "fnametb";
-            this.fnametb.Size = new System.Drawing.Size(240, 20);
-            this.fnametb.TabIndex = 6;
+            this.FirstNameTextBox.Location = new System.Drawing.Point(134, 141);
+            this.FirstNameTextBox.Name = "FirstNameTextBox";
+            this.FirstNameTextBox.Size = new System.Drawing.Size(240, 20);
+            this.FirstNameTextBox.TabIndex = 6;
             // 
-            // lnametb
+            // LastNameTextBox
             // 
-            this.lnametb.Location = new System.Drawing.Point(128, 187);
-            this.lnametb.Name = "lnametb";
-            this.lnametb.Size = new System.Drawing.Size(240, 20);
-            this.lnametb.TabIndex = 13;
+            this.LastNameTextBox.Location = new System.Drawing.Point(134, 189);
+            this.LastNameTextBox.Name = "LastNameTextBox";
+            this.LastNameTextBox.Size = new System.Drawing.Size(240, 20);
+            this.LastNameTextBox.TabIndex = 13;
             // 
-            // emailtb
+            // EmailTextBox
             // 
-            this.emailtb.Location = new System.Drawing.Point(128, 246);
-            this.emailtb.Name = "emailtb";
-            this.emailtb.Size = new System.Drawing.Size(240, 20);
-            this.emailtb.TabIndex = 14;
+            this.EmailTextBox.Location = new System.Drawing.Point(134, 236);
+            this.EmailTextBox.Name = "EmailTextBox";
+            this.EmailTextBox.Size = new System.Drawing.Size(240, 20);
+            this.EmailTextBox.TabIndex = 14;
             // 
-            // passwordtb
+            // PasswordTextBox
             // 
-            this.passwordtb.Location = new System.Drawing.Point(128, 297);
-            this.passwordtb.Name = "passwordtb";
-            this.passwordtb.Size = new System.Drawing.Size(240, 20);
-            this.passwordtb.TabIndex = 15;
-            this.passwordtb.UseSystemPasswordChar = true;
+            this.PasswordTextBox.Location = new System.Drawing.Point(134, 281);
+            this.PasswordTextBox.Name = "PasswordTextBox";
+            this.PasswordTextBox.Size = new System.Drawing.Size(240, 20);
+            this.PasswordTextBox.TabIndex = 15;
+            this.PasswordTextBox.UseSystemPasswordChar = true;
             // 
-            // password2tb
+            // ConfPasswordTextBox
             // 
-            this.password2tb.Location = new System.Drawing.Point(128, 350);
-            this.password2tb.Name = "password2tb";
-            this.password2tb.Size = new System.Drawing.Size(240, 20);
-            this.password2tb.TabIndex = 16;
-            this.password2tb.UseSystemPasswordChar = true;
+            this.ConfPasswordTextBox.Location = new System.Drawing.Point(134, 328);
+            this.ConfPasswordTextBox.Name = "ConfPasswordTextBox";
+            this.ConfPasswordTextBox.Size = new System.Drawing.Size(240, 20);
+            this.ConfPasswordTextBox.TabIndex = 16;
+            this.ConfPasswordTextBox.UseSystemPasswordChar = true;
             // 
-            // cancelbutton
+            // CancelButton
             // 
-            this.cancelbutton.Location = new System.Drawing.Point(203, 433);
-            this.cancelbutton.Name = "cancelbutton";
-            this.cancelbutton.Size = new System.Drawing.Size(75, 23);
-            this.cancelbutton.TabIndex = 17;
-            this.cancelbutton.Text = "Cancel";
-            this.cancelbutton.UseVisualStyleBackColor = true;
-            this.cancelbutton.Click += new System.EventHandler(this.cancelbutton_Click_1);
+            this.CancelButton.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CancelButton.Location = new System.Drawing.Point(209, 433);
+            this.CancelButton.Name = "CancelButton";
+            this.CancelButton.Size = new System.Drawing.Size(75, 23);
+            this.CancelButton.TabIndex = 17;
+            this.CancelButton.Text = "Cancel";
+            this.CancelButton.UseVisualStyleBackColor = true;
+            this.CancelButton.Click += new System.EventHandler(this.cancelbutton_Click_1);
             // 
             // RegisterButton
             // 
-            this.RegisterButton.Location = new System.Drawing.Point(293, 433);
+            this.RegisterButton.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RegisterButton.Location = new System.Drawing.Point(299, 433);
             this.RegisterButton.Name = "RegisterButton";
             this.RegisterButton.Size = new System.Drawing.Size(75, 23);
             this.RegisterButton.TabIndex = 18;
@@ -157,50 +164,51 @@
             this.RegisterButton.UseVisualStyleBackColor = true;
             this.RegisterButton.Click += new System.EventHandler(this.RegisterButton_Click_1);
             // 
-            // loginlink
+            // LoginLink
             // 
-            this.loginlink.AutoSize = true;
-            this.loginlink.Location = new System.Drawing.Point(13, 13);
-            this.loginlink.Name = "loginlink";
-            this.loginlink.Size = new System.Drawing.Size(42, 13);
-            this.loginlink.TabIndex = 19;
-            this.loginlink.TabStop = true;
-            this.loginlink.Text = "< Login";
-            this.loginlink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.loginlink_LinkClicked);
+            this.LoginLink.AutoSize = true;
+            this.LoginLink.Location = new System.Drawing.Point(13, 13);
+            this.LoginLink.Name = "LoginLink";
+            this.LoginLink.Size = new System.Drawing.Size(42, 13);
+            this.LoginLink.TabIndex = 19;
+            this.LoginLink.TabStop = true;
+            this.LoginLink.Text = "< Login";
+            this.LoginLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.loginlink_LinkClicked);
             // 
-            // passwordcheck
+            // PasswordCheck
             // 
-            this.passwordcheck.AutoSize = true;
-            this.passwordcheck.Location = new System.Drawing.Point(128, 386);
-            this.passwordcheck.Name = "passwordcheck";
-            this.passwordcheck.Size = new System.Drawing.Size(102, 17);
-            this.passwordcheck.TabIndex = 20;
-            this.passwordcheck.Text = "Show Password";
-            this.passwordcheck.UseVisualStyleBackColor = true;
-            this.passwordcheck.CheckedChanged += new System.EventHandler(this.passwordcheck_CheckedChanged);
+            this.PasswordCheck.AutoSize = true;
+            this.PasswordCheck.Font = new System.Drawing.Font("Roboto Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PasswordCheck.Location = new System.Drawing.Point(136, 365);
+            this.PasswordCheck.Name = "PasswordCheck";
+            this.PasswordCheck.Size = new System.Drawing.Size(111, 18);
+            this.PasswordCheck.TabIndex = 20;
+            this.PasswordCheck.Text = "Show Password";
+            this.PasswordCheck.UseVisualStyleBackColor = true;
+            this.PasswordCheck.CheckedChanged += new System.EventHandler(this.passwordcheck_CheckedChanged);
             // 
-            // Form2
+            // RegistrationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(449, 491);
-            this.Controls.Add(this.passwordcheck);
-            this.Controls.Add(this.loginlink);
+            this.ClientSize = new System.Drawing.Size(433, 491);
+            this.Controls.Add(this.PasswordCheck);
+            this.Controls.Add(this.LoginLink);
             this.Controls.Add(this.RegisterButton);
-            this.Controls.Add(this.cancelbutton);
-            this.Controls.Add(this.password2tb);
-            this.Controls.Add(this.passwordtb);
-            this.Controls.Add(this.emailtb);
-            this.Controls.Add(this.lnametb);
-            this.Controls.Add(this.fnametb);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Controls.Add(this.CancelButton);
+            this.Controls.Add(this.ConfPasswordTextBox);
+            this.Controls.Add(this.PasswordTextBox);
+            this.Controls.Add(this.EmailTextBox);
+            this.Controls.Add(this.LastNameTextBox);
+            this.Controls.Add(this.FirstNameTextBox);
+            this.Controls.Add(this.ConfPasswordLabel);
+            this.Controls.Add(this.PasswordLabel);
+            this.Controls.Add(this.EmailLabel);
+            this.Controls.Add(this.LastNameLabel);
+            this.Controls.Add(this.FirstNameLabel);
+            this.Controls.Add(this.RegFormLabel);
+            this.Name = "RegistrationForm";
+            this.Text = "Sign Up";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -208,20 +216,20 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox fnametb;
-        private System.Windows.Forms.TextBox lnametb;
-        private System.Windows.Forms.TextBox emailtb;
-        private System.Windows.Forms.TextBox passwordtb;
-        private System.Windows.Forms.TextBox password2tb;
-        private System.Windows.Forms.Button cancelbutton;
+        private System.Windows.Forms.Label RegFormLabel;
+        private System.Windows.Forms.Label FirstNameLabel;
+        private System.Windows.Forms.Label LastNameLabel;
+        private System.Windows.Forms.Label EmailLabel;
+        private System.Windows.Forms.Label PasswordLabel;
+        private System.Windows.Forms.Label ConfPasswordLabel;
+        private System.Windows.Forms.TextBox FirstNameTextBox;
+        private System.Windows.Forms.TextBox LastNameTextBox;
+        private System.Windows.Forms.TextBox EmailTextBox;
+        private System.Windows.Forms.TextBox PasswordTextBox;
+        private System.Windows.Forms.TextBox ConfPasswordTextBox;
+        private System.Windows.Forms.Button CancelButton;
         private System.Windows.Forms.Button RegisterButton;
-        private System.Windows.Forms.LinkLabel loginlink;
-        private System.Windows.Forms.CheckBox passwordcheck;
+        private System.Windows.Forms.LinkLabel LoginLink;
+        private System.Windows.Forms.CheckBox PasswordCheck;
     }
 }

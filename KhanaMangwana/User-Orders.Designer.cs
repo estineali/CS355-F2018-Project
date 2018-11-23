@@ -40,17 +40,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(198, 46);
+            this.label1.Font = new System.Drawing.Font("Roboto", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(187, 73);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 29);
+            this.label1.Size = new System.Drawing.Size(101, 35);
             this.label1.TabIndex = 0;
             this.label1.Text = "Orders";
             // 
             // neworderbutton
             // 
-            this.neworderbutton.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.neworderbutton.Location = new System.Drawing.Point(99, 117);
+            this.neworderbutton.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.neworderbutton.Location = new System.Drawing.Point(95, 130);
             this.neworderbutton.Name = "neworderbutton";
             this.neworderbutton.Size = new System.Drawing.Size(280, 35);
             this.neworderbutton.TabIndex = 1;
@@ -60,8 +60,8 @@
             // 
             // statusbutton
             // 
-            this.statusbutton.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.statusbutton.Location = new System.Drawing.Point(99, 178);
+            this.statusbutton.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statusbutton.Location = new System.Drawing.Point(95, 185);
             this.statusbutton.Name = "statusbutton";
             this.statusbutton.Size = new System.Drawing.Size(280, 35);
             this.statusbutton.TabIndex = 2;
@@ -71,8 +71,8 @@
             // 
             // historybutton
             // 
-            this.historybutton.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.historybutton.Location = new System.Drawing.Point(99, 251);
+            this.historybutton.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.historybutton.Location = new System.Drawing.Point(95, 242);
             this.historybutton.Name = "historybutton";
             this.historybutton.Size = new System.Drawing.Size(280, 35);
             this.historybutton.TabIndex = 3;
@@ -82,8 +82,8 @@
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(99, 314);
+            this.button4.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(95, 298);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(280, 35);
             this.button4.TabIndex = 4;
@@ -94,28 +94,30 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 9);
+            this.label3.Font = new System.Drawing.Font("Roboto Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(251, 21);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(122, 13);
+            this.label3.Size = new System.Drawing.Size(124, 13);
             this.label3.TabIndex = 6;
             this.label3.Text = "Current Wallet Balance: ";
             // 
             // moneytb
             // 
             this.moneytb.Enabled = false;
-            this.moneytb.Location = new System.Drawing.Point(141, 9);
+            this.moneytb.Font = new System.Drawing.Font("Roboto Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.moneytb.Location = new System.Drawing.Point(380, 18);
             this.moneytb.Name = "moneytb";
             this.moneytb.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.moneytb.Size = new System.Drawing.Size(60, 20);
+            this.moneytb.Size = new System.Drawing.Size(60, 21);
             this.moneytb.TabIndex = 7;
-            this.moneytb.Text = "100 Rs";
+            this.moneytb.Text = "Rs. 100";
             this.moneytb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(500, 450);
+            this.ClientSize = new System.Drawing.Size(466, 383);
             this.Controls.Add(this.moneytb);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button4);
@@ -124,7 +126,7 @@
             this.Controls.Add(this.neworderbutton);
             this.Controls.Add(this.label1);
             this.Name = "Form4";
-            this.Text = "Form4";
+            this.Text = "Orders";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -112,6 +112,12 @@
     <Compile Include="ReviewHistory.Designer.cs">
       <DependentUpon>ReviewHistory.cs</DependentUpon>
     </Compile>
+    <Compile Include="SystemAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemAdmin.Designer.cs">
+      <DependentUpon>SystemAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="User-Cart.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -194,6 +200,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ReviewHistory.resx">
       <DependentUpon>ReviewHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemAdmin.resx">
+      <DependentUpon>SystemAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User-Cart.resx">
       <DependentUpon>User-Cart.cs</DependentUpon>

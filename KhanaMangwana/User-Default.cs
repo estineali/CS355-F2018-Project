@@ -29,15 +29,6 @@ namespace KhanaMangwana
             frm5.Show();
         }
 
-       
-        private void logoutbutton_Click(object sender, EventArgs e)
-        {
-            this.Close();
-            Login frm = new Login();
-            frm.Show();
-
-        }
-
         private void menulink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             User_Menu menu = new User_Menu(false);
@@ -61,6 +52,13 @@ namespace KhanaMangwana
                 }
             }
             
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Close();
+            Login frm = new Login();
+            frm.Show();
         }
     }
 }

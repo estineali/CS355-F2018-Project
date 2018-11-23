@@ -45,5 +45,6 @@ namespace KhanaMangwana
             OrderHistory hist = new OrderHistory();
             hist.Show();
         }
+
     }
 }

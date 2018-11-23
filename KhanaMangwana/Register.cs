@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace KhanaMangwana
 {
-    public partial class Form2 : Form
+    public partial class RegistrationForm : Form
     {
-        public Form2()
+        public RegistrationForm()
         {
             InitializeComponent();
         }
@@ -42,20 +42,20 @@ namespace KhanaMangwana
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;*/
 
-            if (fnametb.Text.Trim() == "" || lnametb.Text.Trim() == "" || emailtb.Text.Trim() == "" || passwordtb.Text.Trim() == "" || password2tb.Text.Trim() == "")
+            if (FirstNameTextBox.Text.Trim() == "" || LastNameTextBox.Text.Trim() == "" || EmailTextBox.Text.Trim() == "" || PasswordTextBox.Text.Trim() == "" || ConfPasswordTextBox.Text.Trim() == "")
             {
                 MessageBox.Show("Please fill the form completely!", "Registration Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             else
             {
-                if (passwordtb.TextLength < 8)
+                if (PasswordTextBox.TextLength < 8)
                 {
                     MessageBox.Show("Error! Password should have more than 7 characters");
                 }
                 else
                 {
-                    if (passwordtb.Text != password2tb.Text)
+                    if (PasswordTextBox.Text != ConfPasswordTextBox.Text)
                     {
                         MessageBox.Show("Not the same password, Try Again!");
                     }
@@ -84,17 +84,19 @@ namespace KhanaMangwana
 
         private void passwordcheck_CheckedChanged(object sender, EventArgs e)
         {
-            if (passwordcheck.Checked == true)
+            if (PasswordCheck.Checked == true)
             {
-                passwordtb.UseSystemPasswordChar = false;
-                password2tb.UseSystemPasswordChar = false;
+                PasswordTextBox.UseSystemPasswordChar = false;
+                ConfPasswordTextBox.UseSystemPasswordChar = false;
 
             }
             else
             {
-                passwordtb.UseSystemPasswordChar = true;
-                password2tb.UseSystemPasswordChar = true;
+                PasswordTextBox.UseSystemPasswordChar = true;
+                ConfPasswordTextBox.UseSystemPasswordChar = true;
             }
         }
+
+        
     }
 }
