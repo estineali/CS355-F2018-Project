@@ -143,7 +143,9 @@
             this.Controls.Add(this.CancelButton);
             this.Controls.Add(this.addbutton);
             this.Controls.Add(this.cartpb);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "User_NewOrders";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "New Order";
             ((System.ComponentModel.ISupportInitialize)(this.cartpb)).EndInit();
             this.groupBox1.ResumeLayout(false);

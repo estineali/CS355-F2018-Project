@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace KhanaMangwana
 {
-    public partial class Form3 : Form
+    public partial class UserHome : Form
     {
-        public Form3()
+        public UserHome()
         {
             InitializeComponent();
         }
@@ -36,23 +36,23 @@ namespace KhanaMangwana
             
         }
 
-        private void Form3_FormClosing(object sender, FormClosingEventArgs e)
-        {
+        //private void Form3_FormClosing(object sender, FormClosingEventArgs e)
+        //{
 
-            if (e.CloseReason == CloseReason.UserClosing)
-            {
-                DialogResult result = MessageBox.Show("Do you really want to exit?", "Are you sure?", MessageBoxButtons.YesNo);
-                if (result == DialogResult.Yes)
-                {
-                    Application.Exit();
-                }
-                else if (result == DialogResult.No)
-                {
-                    e.Cancel = true;
-                }
-            }
+        //    if (e.CloseReason == CloseReason.UserClosing)
+        //    {
+        //        DialogResult result = MessageBox.Show("Do you really want to exit?", "Are you sure?", MessageBoxButtons.YesNo);
+        //        if (result == DialogResult.Yes)
+        //        {
+        //            Application.Exit();
+        //        }
+        //        else if (result == DialogResult.No)
+        //        {
+        //            e.Cancel = true;
+        //        }
+        //    }
             
-        }
+        //}
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -60,5 +60,7 @@ namespace KhanaMangwana
             Login frm = new Login();
             frm.Show();
         }
+
+        
     }
 }

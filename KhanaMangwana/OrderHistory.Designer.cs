@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OrderHistory));
             this.label1 = new System.Windows.Forms.Label();
             this.historylb = new System.Windows.Forms.ListBox();
             this.detailbutton = new System.Windows.Forms.Button();
@@ -84,7 +85,9 @@
             this.Controls.Add(this.detailbutton);
             this.Controls.Add(this.historylb);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "OrderHistory";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Order History";
             this.ResumeLayout(false);
             this.PerformLayout();

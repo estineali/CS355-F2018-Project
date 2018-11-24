@@ -66,7 +66,7 @@ namespace KhanaMangwana
                         this.Close();
                         
 
-                        Form3 frm3 = new Form3();
+                        UserHome frm3 = new UserHome();
                         frm3.Show();
                         MessageBox.Show("Registration Successful! Welcome to KhanaMangwana App");
 

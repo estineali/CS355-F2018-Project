@@ -198,7 +198,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Menu_Details";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Details";
             this.Load += new System.EventHandler(this.Menu_Details_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

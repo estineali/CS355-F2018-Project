@@ -100,8 +100,10 @@
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.Cancel);
             this.Controls.Add(this.Order_details);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Pending_Orders";
-            this.Text = "Pending_Orders";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Pending Orders";
             ((System.ComponentModel.ISupportInitialize)(this.AcceptButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DeclineButton)).EndInit();
             this.ResumeLayout(false);

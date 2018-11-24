@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ReviewForm));
             this.label1 = new System.Windows.Forms.Label();
             this.cafebutton = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -219,7 +220,9 @@
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ReviewForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Write Review";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

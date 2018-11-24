@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SystemAdmin));
             this.SysAdminLabel = new System.Windows.Forms.Label();
             this.AdminsButton = new System.Windows.Forms.Button();
             this.CustomersButton = new System.Windows.Forms.Button();
@@ -49,28 +50,30 @@
             // AdminsButton
             // 
             this.AdminsButton.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdminsButton.Location = new System.Drawing.Point(29, 204);
+            this.AdminsButton.Location = new System.Drawing.Point(21, 115);
             this.AdminsButton.Name = "AdminsButton";
             this.AdminsButton.Size = new System.Drawing.Size(279, 35);
             this.AdminsButton.TabIndex = 1;
             this.AdminsButton.Text = "Admins";
             this.AdminsButton.UseVisualStyleBackColor = true;
+            this.AdminsButton.Click += new System.EventHandler(this.AdminsButton_Click);
             // 
             // CustomersButton
             // 
             this.CustomersButton.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CustomersButton.Location = new System.Drawing.Point(29, 257);
+            this.CustomersButton.Location = new System.Drawing.Point(21, 168);
             this.CustomersButton.Name = "CustomersButton";
             this.CustomersButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.CustomersButton.Size = new System.Drawing.Size(279, 35);
             this.CustomersButton.TabIndex = 2;
             this.CustomersButton.Text = "Customers";
             this.CustomersButton.UseVisualStyleBackColor = true;
+            this.CustomersButton.Click += new System.EventHandler(this.CustomersButton_Click);
             // 
             // OrdersButton
             // 
             this.OrdersButton.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OrdersButton.Location = new System.Drawing.Point(29, 310);
+            this.OrdersButton.Location = new System.Drawing.Point(21, 221);
             this.OrdersButton.Name = "OrdersButton";
             this.OrdersButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.OrdersButton.Size = new System.Drawing.Size(279, 35);
@@ -82,18 +85,19 @@
             // ComplaintsButton
             // 
             this.ComplaintsButton.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ComplaintsButton.Location = new System.Drawing.Point(29, 151);
+            this.ComplaintsButton.Location = new System.Drawing.Point(21, 274);
             this.ComplaintsButton.Name = "ComplaintsButton";
             this.ComplaintsButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.ComplaintsButton.Size = new System.Drawing.Size(279, 35);
             this.ComplaintsButton.TabIndex = 4;
             this.ComplaintsButton.Text = "Complaints";
             this.ComplaintsButton.UseVisualStyleBackColor = true;
+            this.ComplaintsButton.Click += new System.EventHandler(this.ComplaintsButton_Click);
             // 
             // LogoutButton
             // 
             this.LogoutButton.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LogoutButton.Location = new System.Drawing.Point(29, 362);
+            this.LogoutButton.Location = new System.Drawing.Point(21, 327);
             this.LogoutButton.Name = "LogoutButton";
             this.LogoutButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.LogoutButton.Size = new System.Drawing.Size(279, 35);
@@ -113,7 +117,9 @@
             this.Controls.Add(this.CustomersButton);
             this.Controls.Add(this.AdminsButton);
             this.Controls.Add(this.SysAdminLabel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SystemAdmin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "System Admin";
             this.ResumeLayout(false);
             this.PerformLayout();

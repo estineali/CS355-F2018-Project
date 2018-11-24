@@ -59,7 +59,7 @@ namespace KhanaMangwana
             if (usernametb.Text == "user" && pass == "user")
            {
                 
-                Form3 frm3 = new Form3();
+                UserHome frm3 = new UserHome();
                 frm3.Show();
                 MessageBox.Show("Welcome Back!", "Login Successful", MessageBoxButtons.OK);
                 this.Hide();
@@ -78,9 +78,10 @@ namespace KhanaMangwana
             else if (usernametb.Text == "sysadmin" && pass == "administer")
             { 
                 SystemAdmin sysAd = new SystemAdmin();
+                this.Hide();
                 sysAd.Show();
                 MessageBox.Show("THE RED ROASTED PARAKEETS", "Buongiorno", MessageBoxButtons.OK);
-                this.Hide();
+                
 
             }
 

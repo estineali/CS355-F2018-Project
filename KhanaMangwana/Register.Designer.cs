@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegistrationForm));
             this.RegFormLabel = new System.Windows.Forms.Label();
             this.FirstNameLabel = new System.Windows.Forms.Label();
             this.LastNameLabel = new System.Windows.Forms.Label();
@@ -207,7 +208,9 @@
             this.Controls.Add(this.LastNameLabel);
             this.Controls.Add(this.FirstNameLabel);
             this.Controls.Add(this.RegFormLabel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "RegistrationForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sign Up";
             this.ResumeLayout(false);
             this.PerformLayout();

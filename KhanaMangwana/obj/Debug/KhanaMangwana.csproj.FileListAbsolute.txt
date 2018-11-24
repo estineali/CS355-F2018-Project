@@ -40,7 +40,6 @@ D:\Documents\Habib University Fall 2018\Database Systems\Project\Frontend\KhanaM
 D:\Documents\Habib University Fall 2018\Database Systems\Project\Frontend\KhanaMangwana\obj\Debug\KhanaMangwana.ReviewHistory.resources
 D:\Documents\Habib University Fall 2018\Database Systems\Project\Frontend\KhanaMangwana\obj\Debug\KhanaMangwana.SystemAdmin.resources
 D:\Documents\Habib University Fall 2018\Database Systems\Project\Frontend\KhanaMangwana\obj\Debug\KhanaMangwana.User_Cart.resources
-D:\Documents\Habib University Fall 2018\Database Systems\Project\Frontend\KhanaMangwana\obj\Debug\KhanaMangwana.Form3.resources
 D:\Documents\Habib University Fall 2018\Database Systems\Project\Frontend\KhanaMangwana\obj\Debug\KhanaMangwana.User_Menu.resources
 D:\Documents\Habib University Fall 2018\Database Systems\Project\Frontend\KhanaMangwana\obj\Debug\KhanaMangwana.User_NewOrders.resources
 D:\Documents\Habib University Fall 2018\Database Systems\Project\Frontend\KhanaMangwana\obj\Debug\KhanaMangwana.User_OrderDetails.resources
@@ -53,3 +52,8 @@ D:\Documents\Habib University Fall 2018\Database Systems\Project\Frontend\KhanaM
 D:\Documents\Habib University Fall 2018\Database Systems\Project\Frontend\KhanaMangwana\obj\Debug\KhanaMangwana.exe
 D:\Documents\Habib University Fall 2018\Database Systems\Project\Frontend\KhanaMangwana\obj\Debug\KhanaMangwana.pdb
 D:\Documents\Habib University Fall 2018\Database Systems\Project\Frontend\KhanaMangwana\obj\Debug\KhanaMangwana.RegistrationForm.resources
+D:\Documents\Habib University Fall 2018\Database Systems\Project\Frontend\KhanaMangwana\obj\Debug\KhanaMangwana.SysAdmin_Complaints.resources
+D:\Documents\Habib University Fall 2018\Database Systems\Project\Frontend\KhanaMangwana\obj\Debug\KhanaMangwana.SysAdminAdmins.resources
+D:\Documents\Habib University Fall 2018\Database Systems\Project\Frontend\KhanaMangwana\obj\Debug\KhanaMangwana.SysAdminCustomers.resources
+D:\Documents\Habib University Fall 2018\Database Systems\Project\Frontend\KhanaMangwana\obj\Debug\KhanaMangwana.NewAdminForm.resources
+D:\Documents\Habib University Fall 2018\Database Systems\Project\Frontend\KhanaMangwana\obj\Debug\KhanaMangwana.UserHome.resources

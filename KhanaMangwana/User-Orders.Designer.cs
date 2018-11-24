@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             this.label1 = new System.Windows.Forms.Label();
             this.neworderbutton = new System.Windows.Forms.Button();
             this.statusbutton = new System.Windows.Forms.Button();
@@ -125,7 +126,9 @@
             this.Controls.Add(this.statusbutton);
             this.Controls.Add(this.neworderbutton);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form4";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Orders";
             this.ResumeLayout(false);
             this.PerformLayout();

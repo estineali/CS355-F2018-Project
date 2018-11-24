@@ -26,8 +26,32 @@ namespace KhanaMangwana
 
         private void OrdersButton_Click(object sender, EventArgs e)
         {
-
+            this.Close();
+            OrderHistory AllOrders = new OrderHistory("System Admin");
+            AllOrders.Show();
         }
+
+        private void ComplaintsButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            SysAdmin_Complaints complainWindow = new SysAdmin_Complaints();
+            complainWindow.Show();
+        }
+
+        private void AdminsButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            SysAdminAdmins Admins = new SysAdminAdmins();
+            Admins.Show();
+        }
+
+        private void CustomersButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            SysAdminCustomers AllCustomers = new SysAdminCustomers();
+            AllCustomers.Show();
+        }
+
     }
 
 }

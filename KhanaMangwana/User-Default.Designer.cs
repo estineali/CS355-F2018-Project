@@ -1,6 +1,6 @@
 ﻿namespace KhanaMangwana
 {
-    partial class Form3
+    partial class UserHome
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserHome));
             this.orderlink = new System.Windows.Forms.LinkLabel();
             this.menulink = new System.Windows.Forms.LinkLabel();
             this.balancelink = new System.Windows.Forms.LinkLabel();
@@ -90,7 +91,7 @@
             this.linkLabel1.VisitedLinkColor = System.Drawing.Color.Red;
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
-            // Form3
+            // UserHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -100,9 +101,11 @@
             this.Controls.Add(this.balancelink);
             this.Controls.Add(this.menulink);
             this.Controls.Add(this.orderlink);
-            this.Name = "Form3";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "UserHome";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form3_FormClosing);
+            //this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form3_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
