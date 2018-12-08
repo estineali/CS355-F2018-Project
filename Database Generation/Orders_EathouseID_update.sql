@@ -1,0 +1,3 @@
+ALTER TABLE Orders
+ADD EatHouseID INT NOT NULL 
+FOREIGN KEY (EatHouseID) REFERENCES EatHouses(EatHouseID);
