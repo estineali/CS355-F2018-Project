@@ -20,11 +20,12 @@ namespace KhanaMangwana
 
             ConnString = "Data Source = " + DataSource + "Initial Catalog = KhanaMangwanaDatabase;" + "Integrated Security = True";
             Connection = new SqlConnection(ConnString);
-            Connection.Open();
+            
         }
 
         static public SqlDataReader Select(string table_name, String[] Collumns)
         {
+            Connection.Open();
             string QueryString = "SELECT ";
             for (int i = 0; i < Collumns.Length ; i++)
             {
@@ -41,6 +42,7 @@ namespace KhanaMangwana
             QueryString += "FROM " + table_name + ";";
             SqlCommand command = new SqlCommand(QueryString, DatabaseConnection.Connection);
             SqlDataReader reader = command.ExecuteReader();
+            Connection.Close();
             return reader;
         }
 
