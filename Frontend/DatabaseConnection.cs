@@ -48,9 +48,11 @@ namespace KhanaMangwana
 
         static public SqlDataReader SelectAll(string table_name)
         {
+            Connection.Open();
             string QueryString = "SELECT * FROM " + table_name + ";";
             SqlCommand command = new SqlCommand(QueryString, DatabaseConnection.Connection);
             SqlDataReader reader = command.ExecuteReader();
+            Connection.Close();
             return reader;
         }
 
