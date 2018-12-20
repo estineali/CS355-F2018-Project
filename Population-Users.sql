@@ -7,5 +7,4 @@ INSERT INTO users values
 ('Muhammad Shahrom', 'Ali', 'ma03559', 	'manamejeff', '1998-09-15', 'ma03559@st.habib.edu.pk', 0),
 ('Sarah', 'Khan', 'sk03465', 'motherrussia', '1999-11-20', 'sk03465@st.habib.edu.pk', 0),
 ('Aymen', 'Wasim', 'aq03452', 'harrypotterlav',	'1999-04-11',	'aq03452@st.habib.edu.pk',	0),
-('Muhammad', 'Shahzain', 'ms03977',	'arayshazen', '1999-03-25', 'ms03977@st.habib.edu.pk', 0),
-('Osama', 'Majeed', 'gr81000',	'verschluss', '1999-08-21', 'gr81000@gmail.com', 0)
+('Muhammad', 'Shahzain', 'ms03977',	'arayshazen', '1999-03-25', 'ms03977@st.habib.edu.pk', 0);
