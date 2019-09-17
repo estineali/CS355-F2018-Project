@@ -14,6 +14,6 @@
 	Unauthorized copying of this file, via any medium, is strictly prohibited
 	Proprietary and confidential
   
-  Written by Muhammad Shahrom Ali <estineali@gmail.com>, November 2018
+  Written by Muhammad Shahrom Ali <104msa@gmail.com>, November 2018
   
   Project Wrapped Up --- Friday 21st December 2018
